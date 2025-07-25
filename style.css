@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f8f9fa;
+  color: #222;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hero {
+  background: linear-gradient(120deg, #1976d2 60%, #42a5f5 100%);
+  color: #fff;
+  padding: 80px 0 60px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 699;
+}
+.tagline {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.cta-btn {
+  background: #fff;
+  color: #1976d2;
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+.cta-btn:hover {
+  background: #1976d2;
+  color: #fff;
+}
+section {
+  padding: 60px 0;
+}
+section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #1976d2;
+}
+.about p {
+  text-align: center;
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.course {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.07);
+  padding: 30px 24px;
+  width: 250px;
+  text-align: center;
+}
+.course h3 {
+  color: #1976d2;
+  margin-bottom: 10px;
+}
+.benefits ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.benefits li {
+  background: #e3f2fd;
+  margin-bottom: 14px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 1.08rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.contact-form button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-form button:hover {
+  background: #1565c0;
+}
+.contact-info {
+  text-align: center;
+  color: #444;
+  font-size: 1.05rem;
+}
+footer {
+  background: #1976d2;
+  color: #fff;
+  padding: 24px 0;
+  text-align: center;
+}
+footer .socials a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 6px;
+}
+@media (max-width: 900px) {
+  .course-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .course {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  section h2 {
+    font-size: 1.4rem;
+  }
+  .container {
+    padding: 0 8px;
+  }
+} 
